@@ -1,9 +1,12 @@
 # ConnectFourGame
+> **Powered by AI Coding Agent** 🤖
+
+This project was built entirely through collaboration with an advanced AI coding assistant.
+
 
 A simple implementation of "Connect Four" in C# and Windows Forms.
 
 ![Gameplay Demo](demo.gif)
-*(Insert gameplay gif here)*
 
 ## Technologies
 *   .NET 6.0 (WinForms)
