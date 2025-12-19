@@ -1,0 +1,29 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.vs/
+.vscode/
+
+# EF Core Tooling
+*.db
+*.db-shm
+*.db-wal
+
+# Agent Artifacts
+.gemini/
+.agent/
+brain/
+implementation_plan.md
+task.md
+walkthrough.md
+
+# OS
+[Th]umbs.db
+Log/
+logs/
