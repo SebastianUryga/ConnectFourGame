@@ -3,13 +3,13 @@ using Microsoft.Extensions.Configuration;
 
 namespace GameConnectFour.Model
 {
-    public class TicTacToeContext : DbContext
+    public class ConnectFourContext : DbContext
     {
         public DbSet<GameHistory> GameHistories { get; set; }
 
-        public TicTacToeContext() { }
+        public ConnectFourContext() { }
 
-        public TicTacToeContext(DbContextOptions<TicTacToeContext> options) : base(options) { }
+        public ConnectFourContext(DbContextOptions<ConnectFourContext> options) : base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

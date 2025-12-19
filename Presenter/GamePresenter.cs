@@ -86,7 +86,7 @@ namespace GameConnectFour.Presenter
              {
                  try
                  {
-                     using (var context = new TicTacToeContext())
+                     using (var context = new ConnectFourContext())
                      {
                          var history = new GameHistory
                          {

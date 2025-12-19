@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GameConnectFour.Migrations
 {
-    [DbContext(typeof(TicTacToeContext))]
-    partial class TicTacToeContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ConnectFourContext))]
+    partial class ConnectFourContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

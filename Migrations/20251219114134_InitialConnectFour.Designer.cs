@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GameConnectFour.Migrations
 {
-    [DbContext(typeof(TicTacToeContext))]
+    [DbContext(typeof(ConnectFourContext))]
     [Migration("20251219114134_InitialConnectFour")]
     partial class InitialConnectFour
     {
